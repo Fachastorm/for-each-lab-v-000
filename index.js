@@ -3,3 +3,11 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`)
   }
 }
+
+function iterate(callback) {
+  const cars = ["Armada", "Durango", "QX80"]
+
+  cars.forEach(callback)
+
+  return cars
+}
